@@ -1,0 +1,35 @@
+{
+    "URL":"http://www.beta.kalanjiamhardwares.com/",
+
+    "credentials":{
+        "username":"daisy.p@paripoorna.in",
+        "password":"Psss@123",
+        "firstname":"Daisy",
+        "lastname":"Ponraj",
+        "email_id":"daisy.p@paripoorna.in",
+        "phone_no":"8754232355",
+        "new_password":"Psss@123"
+    },
+    "xpath":{
+        "login_button":"//*[@id=\"liLogin\"]/a",
+        "email_add":"//*[@id=\"txtEmail\"]",
+        "password_x":"//*[@id=\"txtPassword\"]",
+        "login_into":"//*[@id=\"btnSubmit\"]",
+        "logout":"//*[@id=\"liLogout\"]/a",
+        "signup":"//*[@id=\"liSignUp\"]/a",
+        "firstname":"//*[@id=\"ContentPlaceHolder1_txtFirstName\"]",
+        "lastname":"//*[@id=\"ContentPlaceHolder1_txtLastName\"]",
+        "Email":"//*[@id=\"ContentPlaceHolder1_txtEmail\"]",
+        "phone_number":"//*[@id=\"ContentPlaceHolder1_txtMobileNumber\"]",
+        "newpassword":"//*[@id=\"ContentPlaceHolder1_txtRegPassword\"]",
+        "repeat_pwd":"//*[@id=\"ContentPlaceHolder1_txtRegRepeat\"]",
+        "create_button":"//*[@id=\"ContentPlaceHolder1_btnSubmit\"]"
+    },
+    "error":{
+        "mandatory_firstname":"//*[@class='txtFirstName ErrorControl']",
+        "mandatory_secondname":"//*[@class='txtLastName ErrorControl']",
+        "mandatory_email":"//*[@class='txtEmail ErrorControl']",
+        "mandatory_phone":"//*[@class='txtMobileNumber ErrorControl']"
+        
+    }
+}
