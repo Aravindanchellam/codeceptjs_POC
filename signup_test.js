@@ -57,6 +57,7 @@ Scenario('Order_1', (I) => {
     I.wait(1)
     I.fillField(data['product_selection']['fillpin'],data['product_selection']['pincode'])
     I.click(data['product_selection']['pincheck'])
-    I.click(data['product_selection']['Addtocart'])
+    I.click(data['product_selection']['Addtocart'])    
+    I.click(data['product_selection']['Checkcart'])
     I.wait(2)
 });
