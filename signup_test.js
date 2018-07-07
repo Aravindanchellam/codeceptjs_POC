@@ -53,5 +53,10 @@ Scenario('Order_1', (I) => {
     I.click(data['product_selection']['lock'])
     I.fillField(data['product_selection']['search'],data['product_selection']['Searchitem'])
     I.click(data['product_selection']['searchbtn'])
-    I.click(data())
+    I.click(data['product_selection']['product_1'])
+    I.wait(1)
+    I.fillField(data['product_selection']['fillpin'],data['product_selection']['pincode'])
+    I.click(data['product_selection']['pincheck'])
+    I.click(data['product_selection']['Addtocart'])
+    I.wait(2)
 });

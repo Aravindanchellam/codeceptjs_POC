@@ -40,6 +40,11 @@
         "locks":"//*[@id=\"frmCategoryList\"]/div[3]/div/div[16]/div/section",
         "search":"//*[@id=\"tags\"]",
         "searchbtn":"//*[@id=\"ser\"]",
-        "Searchitem":"europa"    
+        "Searchitem":"europa",
+        "product_1":"//*[@id=\"product-wrapper\"]/div[1]/div[1]",    
+        "fillpin":"//*[@id=\"txtpincode\"]",
+        "pincode":"600096",
+        "pincheck":"//*[@id=\"lnkCheck\"]",
+        "Addtocart":"//*[@id=\"btnbuy\"]"
     }
 }
