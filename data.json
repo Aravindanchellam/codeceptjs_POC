@@ -1,0 +1,45 @@
+{
+    "URL":"http://www.beta.kalanjiamhardwares.com/",
+    "sign up":"Sign Up",
+    "submit":"CREATE AN ACCOUNT",
+    "form":{
+        "username":"//*[@id=\"ContentPlaceHolder1_txtFirstName\"]",
+        "lastname":"//*[@id=\"ContentPlaceHolder1_txtLastName\"]",
+        "email":"//*[@id=\"ContentPlaceHolder1_txtEmail\"]",
+        "mobile":"//*[@id=\"ContentPlaceHolder1_txtMobileNumber\"]",
+        "password":"//*[@id=\"ContentPlaceHolder1_txtRegPassword\"]",
+        "cpassword":"//*[@id=\"ContentPlaceHolder1_txtRegRepeat\"]",
+        "element":"//input[@id=\"ContentPlaceHolder1_txtLastName\"][@class=\"txtLastName ErrorControl\"]"
+    },
+    "userdata":{
+        "name":"raj",
+        "lsname":"kumar",
+        "mail":"rajkumar@gmail.com",
+        "mobno":"9876543211",
+        "password":"aravind@123",
+        "cpassword":"aravind@123"
+    },
+    "login_input_1":{
+        "login":"Login",
+        "username":"daisy.p@paripoorna.in",
+        "fillname":"//*[@id=\"txtEmail\"]",
+        "paswdfill":"//*[@id=\"txtPassword\"]",
+        "password":"Psss@123",
+        "submit":"//*[@id=\"btnSubmit\"]"
+    },
+    "login_input_2":{
+        "login":"Login",
+        "username":"daisy.p@paripoorna",
+        "fillname":"//*[@id=\"txtEmail\"]",
+        "paswdfill":"//*[@id=\"txtPassword\"]",
+        "password":"Psss@123",
+        "submit":"//*[@id=\"btnSubmit\"]"
+    },
+    "product_selection":{
+        "lock":"//*[@id=\"59\"]",
+        "locks":"//*[@id=\"frmCategoryList\"]/div[3]/div/div[16]/div/section",
+        "search":"//*[@id=\"tags\"]",
+        "searchbtn":"//*[@id=\"ser\"]",
+        "Searchitem":"europa"    
+    }
+}
