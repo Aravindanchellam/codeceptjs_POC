@@ -9,20 +9,20 @@ Feature('Site');
 //     I.say('Sign up Error')        
 // });
 
-// // Scenario('sign up with invalid inputs', (I) =>{
-// //     I.amOnPage(data['URL'])
-// //     I.click(data['sign up'])
-// //     I.fillField(data['form']['firstname'],data['userdata']['name'])
-// //     I.fillField(data['form']['lastname'],data['userdata']['lsname'])
-// //     I.fillField(data['form']['email'],data['userdata']['mail'])
-// //     I.fillField(data['form']['mobile'],data['userdata']['mobno'])
-// //     I.fillField(data['form']['password'],data['userdata']['password'])
-// //     I.fillField(data['form']['cpassword'],data['userdata']['cpassword'])
-// //     I.click(data['submit'])
-// //     I.wait(2)    
-// //     I.seeElement('//a[@id=\'aUserName\']')
+// Scenario('sign up with invalid inputs', (I) =>{
+//     I.amOnPage(data['URL'])
+//     I.click(data['sign up'])
+//     I.fillField(data['form']['firstname'],data['userdata']['name'])
+//     I.fillField(data['form']['lastname'],data['userdata']['lsname'])
+//     I.fillField(data['form']['email'],data['userdata']['mail'])
+//     I.fillField(data['form']['mobile'],data['userdata']['mobno'])
+//     I.fillField(data['form']['password'],data['userdata']['password'])
+//     I.fillField(data['form']['cpassword'],data['userdata']['cpassword'])
+//     I.click(data['submit'])
+//     I.wait(2)    
+//     I.seeElement('//a[@id=\'aUserName\']')
 
-// // });
+// });
 
 // Scenario('Login with valid inputs', (I) => {
 //     I.amOnPage(data['URL'])
@@ -34,6 +34,30 @@ Feature('Site');
 //     I.wait(2)
 //     I.selectOption('//a[@id=\'aUserName\']')
 //     I.say('Login Successful with vaild inputs')       
+// });
+
+// Scenario("Login with invalid inputs",(I) => {
+//     I.amOnPage(data['URL'])
+//     I.click(data['login_input_2']['login'])
+//     I.fillField(data['login_input_2']['fillname'],data['login_input_2']['username'])
+//     I.fillField(data['login_input_2']['paswdfill'],data['login_input_2']['password'])
+//     I.click(data['login_input_2']['submit'])
+//     I.click(data['login_input_2']['submit'])
+//     I.wait(2)
+//     I.selectOption('//a[@id=\'aUserName\']')
+//     I.say('Login UnSuccessful with invaild inputs')
+// });
+
+// Scenario("Login with atleast one valid inputs",(I) => {
+//     I.amOnPage(data['URL'])
+//     I.click(data['login_input_2']['login'])
+//     I.fillField(data['login_input_2']['fillname'],data['login_input_2']['username'])
+//     I.fillField(data['login_input_2']['paswdfill'],data['login_input_2']['password'])
+//     I.click(data['login_input_2']['submit'])
+//     I.click(data['login_input_2']['submit'])
+//     I.wait(2)
+//     I.selectOption('//a[@id=\'aUserName\']')
+//     I.say('Login UnSuccessful with invaild inputs')
 // });
 
 // Scenario("Login with invalid inputs",(I) => {

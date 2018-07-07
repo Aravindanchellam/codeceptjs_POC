@@ -9,7 +9,11 @@
             "command": "codeceptjs run --steps",
             "problemMatcher": [
                 "$jshint"
-            ]
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
