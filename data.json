@@ -58,5 +58,9 @@
         "Addtocart":"//*[@id=\"btnbuy\"]",
         "Checkcart":"//*[@id=\"topheader\"]/div[1]/div/div/div[3]/ul/li[5]/a[2]/i",
         "remove":"//*[@id=\"imgbtnClose\"]"
+    },
+    "checkout":{
+        "checkoutbtn":"//*[@id=\"btnCheckout\"]",
+        "continueshop":"//*[@id=\"btnContinue\"]"
     }
 }
