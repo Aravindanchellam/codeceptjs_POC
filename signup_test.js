@@ -72,16 +72,34 @@ Feature('Site');
 //     I.say('Login UnSuccessful with invaild inputs')
 // });
 
-Scenario('Order_1', (I) => {
+// Scenario('Order_1 with checkout', (I) => {
+//     I.amOnPage(data['URL'])
+//     I.click(data['product_selection']['lock'])
+//     I.fillField(data['product_selection']['search'],data['product_selection']['Searchitem'])
+//     I.click(data['product_selection']['searchbtn'])
+//     I.click(data['product_selection']['product_1'])
+//     I.wait(1)
+//     I.fillField(data['product_selection']['fillpin'],data['product_selection']['pincode'])
+//     I.click(data['product_selection']['pincheck'])
+//     I.click(data['product_selection']['Addtocart'])    
+//     I.click(data['product_selection']['Checkcart'])
+//     I.wait(2)
+// });
+
+Scenario('Order_2 with removing cart', (I) => {
     I.amOnPage(data['URL'])
-    I.click(data['product_selection']['lock'])
-    I.fillField(data['product_selection']['search'],data['product_selection']['Searchitem'])
-    I.click(data['product_selection']['searchbtn'])
-    I.click(data['product_selection']['product_1'])
+    I.click(data['product_selection_1']['prduct_handle'])
+    // I.fillField(data['product_selection_1']['search'],data['product_selection_1'][''])
+    I.click(data['product_selection_1']['handle'])
+    I.click(data['product_selection_1']['product_1'])
     I.wait(1)
-    I.fillField(data['product_selection']['fillpin'],data['product_selection']['pincode'])
-    I.click(data['product_selection']['pincheck'])
-    I.click(data['product_selection']['Addtocart'])    
-    I.click(data['product_selection']['Checkcart'])
+    I.fillField(data['product_selection_1']['fillpin'],data['product_selection_1']['pincode'])
+    I.click(data['product_selection_1']['pincheck'])
+    I.click(data['product_selection_1']['Addtocart'])    
+    I.click(data['product_selection_1']['Checkcart'])
     I.wait(2)
+    I.click(data['product_selection_1']['remove'])
+    I.wait(5)
+    I.amOnPage(data['URL'])
+    I.wait(5)
 });
