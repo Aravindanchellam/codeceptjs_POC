@@ -9,6 +9,21 @@
       "windowSize": "maximize"
     }
   },
+  "multiple": {
+    "basic":{
+      "browsers": [
+        "firefox",
+        {
+          "browser": "chrome",
+          "windowSize": "maximize"
+        }
+      ]
+    }  
+  },
+  "parallel": {
+    "chunks": 2,
+    "browsers": ["chrome"]
+  },
   "include": {
     "I": "./steps_file.js"
   },

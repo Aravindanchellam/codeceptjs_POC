@@ -13,7 +13,16 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "label": "codeceptjs",
+            "type": "shell",
+            "command": "codeceptjs run --steps",
+            "problemMatcher": [
+                "$jshint"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
         }
     ]
 }

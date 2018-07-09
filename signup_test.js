@@ -6,15 +6,15 @@ Before((I) => { // or Background
     I.amOnPage(data['URL'])
 });
 
-Scenario('login with valid username and password', (I) => {
+Scenario.only('login with valid username and password', (I) => {
     // I.amOnPage(inputs['URL'])
     I.click(inputs['xpath']['login_button'])
-    I.fillField(inputs['xpath']['email_add'],inputs['credentials']['username'])
-    I.fillField(inputs['xpath']['password_x'],inputs['credentials']['password'])
-    I.click(inputs['xpath']['login_into'])
-    I.wait(2)
-    I.click(inputs['xpath']['logout'])
-    I.wait(2)
+    // I.fillField(inputs['xpath']['email_add'],inputs['credentials']['username'])
+    // I.fillField(inputs['xpath']['password_x'],inputs['credentials']['password'])
+    // I.click(inputs['xpath']['login_into'])
+    // I.wait(2)
+    // I.click(inputs['xpath']['logout'])
+    // I.wait(2)
 });
 
 Scenario('Try to create new account with existing details', (I) => {
@@ -94,12 +94,12 @@ Scenario('Test Login using within function', (I) => {
 Scenario('Sign up with empty Inputs ', (I) => {
     // I.amOnPage(data['URL'])
     I.click(data['sign up'])
-    I.click(data['submit'])
+    // I.click(data['submit'])
     I.seeElement(data['form']['element'])
-    I.say('Sign up Error')        
+    I.say('Sign up Error')
 });
 
-Scenario('Sign up with empty Inputs  ', (I) => {
+Scenario('Sign up with empty Inputs using retry', (I) => {
     // I.amOnPage(data['URL'])
     I.click(data['sign up'])
     I.click(data['submit'])
@@ -180,7 +180,7 @@ Scenario('Order_1 with checkout', (I) => {
     I.wait(1)
     I.fillField(data['product_selection']['fillpin'],data['product_selection']['pincode'])
     I.click(data['product_selection']['pincheck'])
-    I.click(data['product_selection']['Addtocart'])    
+    I.click(data['product_selection']['Addtocart'])
     I.click(data['product_selection']['Checkcart'])
     I.wait(2)
 });
@@ -194,7 +194,7 @@ Scenario('Order_2 with removing cart', (I) => {
     I.wait(1)
     I.fillField(data['product_selection_1']['fillpin'],data['product_selection_1']['pincode'])
     I.click(data['product_selection_1']['pincheck'])
-    I.click(data['product_selection_1']['Addtocart'])    
+    I.click(data['product_selection_1']['Addtocart'])
     I.click(data['product_selection_1']['Checkcart'])
     I.wait(2)
     I.click(data['product_selection_1']['remove'])
