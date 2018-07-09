@@ -5,7 +5,8 @@
   "helpers": {
     "WebDriverIO": {
       "url": "https://www.beta.kalanjiamhardwares.com",
-      "browser": "chrome"
+      "browser": "chrome",
+      "windowSize": "maximize"      
     }
   },
   "include": {

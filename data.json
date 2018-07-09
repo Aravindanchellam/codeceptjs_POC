@@ -44,7 +44,7 @@
         "product_1":"//*[@id=\"product-wrapper\"]/div[1]/div[1]",    
         "fillpin":"//*[@id=\"txtpincode\"]",
         "pincode":"600096",
-        "pincheck":"//*[@id=\"lnkCheck\"]",
+        "pincheck":"//input[@id='lnkCheck']",
         "Addtocart":"//*[@id=\"btnbuy\"]",
         "Checkcart":"//*[@id=\"topheader\"]/div[1]/div/div/div[3]/ul/li[5]/a[2]/i"
     },
@@ -54,7 +54,7 @@
         "product_1":"//*[@id=\"product-wrapper\"]/div[1]",
         "pincode":"600096",
         "fillpin":"//*[@id=\"txtpincode\"]",
-        "pincheck":"//*[@id=\"lnkCheck\"]",
+        "pincheck":"//input[@id='lnkCheck']",
         "Addtocart":"//*[@id=\"btnbuy\"]",
         "Checkcart":"//*[@id=\"topheader\"]/div[1]/div/div/div[3]/ul/li[5]/a[2]/i",
         "remove":"//*[@id=\"imgbtnClose\"]"
