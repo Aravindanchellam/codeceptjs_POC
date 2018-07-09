@@ -203,7 +203,7 @@ Scenario('Order_2 with removing cart', (I) => {
     I.wait(5)
 });
 
-Scenario.only('Proceeding to check out using cart', (I) => {
+Scenario('Proceeding to check out using cart', (I) => {
     // I.amOnPage(data['URL'])
     I.click(data['product_selection']['lock'])
     I.fillField(data['product_selection']['search'],data['product_selection']['Searchitem'])

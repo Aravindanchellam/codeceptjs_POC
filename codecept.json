@@ -4,9 +4,9 @@
   "output": "./output",
   "helpers": {
     "WebDriverIO": {
-      "url": "https://www.beta.kalanjiamhardwares.com",
-      "browser": "chrome",
-      "windowSize": "maximize"      
+      "url": "https://www.beta.kalanjiamhardwares.com",          
+      "browser":"chrome",
+      "windowSize": "maximize"
     }
   },
   "include": {

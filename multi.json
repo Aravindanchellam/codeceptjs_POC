@@ -1,0 +1,20 @@
+{
+    "multiple": {
+        "basic": {
+        "browsers": ["chrome", "firefox"]
+        },
+        "smoke": {
+        "grep": "@smoke",
+        "outputName": "smoke",
+        "browsers": [
+            "firefox",
+            {"browser": "chrome", "windowSize": "maximize"},            
+            {"browser": "chrome", "windowSize": "1200x840"}
+        ]
+        },    
+        "parallel": {
+        "chunks": 2,
+        "browsers": ["chrome"]
+        }
+    }
+}
